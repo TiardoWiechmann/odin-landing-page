@@ -1,0 +1,162 @@
+body {
+    font-family: Roboto, Helvetica, serif ;
+    color: #F9FAF8;
+    margin: 0;
+    height: 100vh;
+} 
+
+.section-one {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15%;   
+    background-color: #1F2937;
+}
+
+a,
+.h-secondary-text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.heading-section {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    gap: 5%;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 200px;
+    gap: 8px;
+}
+
+.heading {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.placeholder {
+    width: 500px;
+    height: 200px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.info-heading {
+    font-size: 30px;
+    font-weight: 700;
+    color: #1F2937;
+}
+
+.container-item {
+    display: flex;
+    gap: 20px;
+    padding: 40px 10% 50px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: gray;
+    align-items: center;
+}
+
+.subtext {
+    text-align: center;
+    width: 120px;
+}
+
+.image
+ {
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 3px;
+    width: 120px;
+    height: 120px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 80px 20%;
+    
+}
+
+.quote-text {
+    font-size: 22px;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.thor {
+    color: black;
+    text-align: end;
+    font-weight: bold;
+}
+
+.action-field {
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    padding: 40px 60px;
+    gap: 5%;
+    margin: 60px auto;
+    align-items: center;
+}
+
+.action-heading {
+    font-weight: bold;
+}
+
+.button-two {
+    border-color: white;
+}
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
